@@ -2,6 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 
 
+
+print("hello")
+
 def get_html(url):
     r = requests.get(url)
     return r.text
